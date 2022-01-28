@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body, html
+{
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background: #181818;
+    scroll-behavior: smooth;
+}
+
+header
+{
+    display: flex;
+    background-color: #222;
+    box-shadow: 0 0 5px 2px #11111155;
+    padding: 16px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo
+{
+    width: 100px;
+    background: transparent;
+    margin-left: 50px;
+}
+
+a
+{
+    color: #888;
+    text-decoration: none;
+}
+
+p
+{
+    color: white;      
+}
+
+.mainVids
+{
+    padding: 32px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 32px;
+    justify-content: center;
+}
+
+.specialVids
+{
+    border-top: 5px solid #222;
+    border-bottom: 5px solid #222;
+    margin-top: 32px;
+    
+    padding: 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 32px;
+    justify-content: center;
+}
+
+h2
+{
+    width: 100%;
+    grid-column: 1 / -1;
+}
+
+.vid
+{
+    background: #222;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px 2px #111;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 85px;
+}
+
+.thumbnail
+{
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+    position: relative;
+}
+
+img
+{
+    background: #333;
+}
+
+.vidLength
+{
+    background-color: #111111BB;
+    width: max-content;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 13px;
+    bottom: 0;
+    right: 10px;
+    z-index: 100;
+    position: absolute;
+}
+
+.channel
+{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.channel img
+{
+    border-radius: 50%;
+}
+
+.vidInfo
+{
+    position: absolute;
+    bottom: 0;
+}
+
+.meta
+{
+    color: #888;
+}
