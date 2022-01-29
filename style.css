@@ -4,7 +4,6 @@ body, html
 {
     margin: 0;
     font-family: 'Roboto', Arial, sans-serif;
-    color: white;
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
@@ -14,20 +13,97 @@ body, html
 
 header
 {
-    display: flex;
-    background-color: #222;
-    box-shadow: 0 0 5px 2px #11111155;
-    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: #222222F2;
+    box-shadow: 0 0 5px 2px #111;
+    padding: 0;
     position: fixed;
     width: 100%;
+    height: 64px;
     z-index: 1000;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    gap: 32px;
 }
 
-.logo
+.ytLogo
 {
     width: 100px;
     background: transparent;
     margin-left: 50px;
+}
+
+.search
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search button
+{
+    background: #333;
+    border: none;
+    height: 32px;
+    width: 64px;
+    padding: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.search button img
+{
+    height: 30px;
+}
+
+.search input
+{
+    height: 32px;
+    width: 80%;
+    background-color: #181818;
+    border: 2px solid #333;
+    border-right: none;
+    color: white;
+    z-index: 10;
+    font-family: inherit;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
+}
+.search input:focus
+{
+    outline: 1px solid white;
+}
+
+.menus
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 50px;
+    gap: 32px;
+}
+
+.menus img
+{
+    background: transparent;
+    cursor: pointer;
+    height: 24px;
+}
+
+.accIcon
+{
+    border-radius: 50%;
+    width: 36px !important;
+    height: 36px !important;
+}
+
+main
+{
+    margin-top: 100px;
+    color: white;
 }
 
 a
@@ -38,17 +114,22 @@ a
 
 p
 {
-    color: white;      
+    color: inherit;
+}
+
+button
+{
+    cursor: pointer;
 }
 
 .mainVids
 {
     padding: 32px;
-    margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(auto-fill, 300px);
-    gap: 32px;
+    gap: 36px;
     justify-content: center;
+    margin-top: -30px;
 }
 
 .specialVids
@@ -56,11 +137,14 @@ p
     border-top: 5px solid #222;
     border-bottom: 5px solid #222;
     margin-top: 32px;
+    margin-bottom: 50px;
+    color: inherit;
     
     padding: 32px;
+    padding-top: 16px;
     display: grid;
     grid-template-columns: repeat(auto-fill, 300px);
-    gap: 32px;
+    gap: 36px;
     justify-content: center;
 }
 
@@ -68,6 +152,17 @@ h2
 {
     width: 100%;
     grid-column: 1 / -1;
+    color: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 button
+{
+    background: transparent;
+    color: inherit;
+    border: none;
+    font-size: 20px;
 }
 
 .vid
@@ -75,10 +170,17 @@ h2
     background: #222;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 0 0 5px 2px #111;
-    cursor: pointer;
+    box-shadow: 1px 2px 5px 2px #111;
     position: relative;
     padding-bottom: 85px;
+    outline: none;
+    transition: transform 250ms ease-in-out;
+    cursor: pointer;
+}
+.vid:hover
+{
+    transform: scale(115%);
+    transition-delay: 250ms;
 }
 
 .thumbnail
@@ -87,11 +189,6 @@ h2
     aspect-ratio: 16/9;
     border-radius: 10px;
     position: relative;
-}
-
-img
-{
-    background: #333;
 }
 
 .vidLength

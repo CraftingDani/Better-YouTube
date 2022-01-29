@@ -12,8 +12,22 @@
 <body>
     <header>
         <a href="#">
-            <img src="img/logo.png" alt="youtube logo" class="logo">
+            <img src="img/logo.png" alt="youtube logo" class="ytLogo">
         </a>
+
+        <form action="#" class="search">
+            <input type="search" placeholder="Search">
+            <button type="submit">
+                <img src="img/magnify.png" alt="">
+            </button>
+        </form>
+
+        <div class="menus">
+            <img src="img/cam.png" alt="create content">
+            <img src="img/apps.png" alt="apps">
+            <img src="img/bell.png" alt="notifications">
+            <img src="https://unsplash.it/36/36" alt="account icon" class="accIcon">
+        </div>
     </header>
 
     <nav class="sidebar">
@@ -23,12 +37,12 @@
     <main>
         <section class="mainVids">
             
-            <article class="vid" onclick="click();">
+            <article class="vid">
                 <div class="thumbnail">
                     <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
                     <p class="vidLength">12:45</p>
                 </div>
-                <p class="title"><strong>This VIDEO is a nice litte TEST | Testyss | YOUR CHANNEL</strong></p>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
             
                 <div class="vidInfo">
                     <a href="#" class="channel">
@@ -39,28 +53,12 @@
                 </div>
             </article>
             
-            <article class="vid" onclick="click();">
+            <article class="vid">
                 <div class="thumbnail">
                     <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
                     <p class="vidLength">12:45</p>
                 </div>
-                <p class="title"><strong>This VIDEO is a nice litte TEST | Testyss | YOUR CHANNEL</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid" onclick="click();">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This VIDEO is a nice litte TEST | Testyss | YOUR CHANNEL</strong></p>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
             
                 <div class="vidInfo">
                     <a href="#" class="channel">
@@ -71,12 +69,12 @@
                 </div>
             </article>
 
-            <article class="vid" onclick="click();">
+            <article class="vid">
                 <div class="thumbnail">
                     <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
                     <p class="vidLength">12:45</p>
                 </div>
-                <p class="title"><strong>This VIDEO is a nice litte TEST | Testyss | YOUR CHANNEL</strong></p>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
             
                 <div class="vidInfo">
                     <a href="#" class="channel">
@@ -87,12 +85,12 @@
                 </div>
             </article>
 
-            <article class="vid" onclick="click();">
+            <article class="vid">
                 <div class="thumbnail">
                     <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
                     <p class="vidLength">12:45</p>
                 </div>
-                <p class="title"><strong>This VIDEO is a nice litte TEST | Testyss | YOUR CHANNEL</strong></p>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
             
                 <div class="vidInfo">
                     <a href="#" class="channel">
@@ -103,12 +101,12 @@
                 </div>
             </article>
 
-            <article class="vid" onclick="click();">
+            <article class="vid">
                 <div class="thumbnail">
                     <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
                     <p class="vidLength">12:45</p>
                 </div>
-                <p class="title"><strong>This VIDEO is a nice litte TEST | Testyss | YOUR CHANNEL</strong></p>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
             
                 <div class="vidInfo">
                     <a href="#" class="channel">
@@ -118,23 +116,26 @@
                     <p class="meta">564.654 Views • 1 week ago</p>
                 </div>
             </article>
+
         </section>
 
         <section class="specialVids">
-            <h2>Special Videos</h2>
+            <h2>Special Videos <button onclick="document.querySelector('.specialVids').style.display = 'none'"><strong>&times;</strong></button></h2>
 
             <article class="vid">
                 <div class="thumbnail">
                     <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
                     <p class="vidLength">12:45</p>
                 </div>
-                <p class="title"><strong>This VIDEO is a TEST! | Channel Name</strong></p>
+                <p class="title"><strong>3,5 n VERLOREN! |</strong></p>
             
-                <a href="#" class="channel">
-                    <img src="https://unsplash.it/36/36" alt="channel logo">
-                    Channel Name
-                </a>
-                <p class="meta">564.654 Views • 1 week ago</p>
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
             </article>
 
             <article class="vid">
@@ -142,13 +143,15 @@
                     <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
                     <p class="vidLength">12:45</p>
                 </div>
-                <p class="title"><strong>This VIDEO is a TEST! | Channel Name</strong></p>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
             
-                <a href="#" class="channel">
-                    <img src="https://unsplash.it/36/36" alt="channel logo">
-                    Channel Name
-                </a>
-                <p class="meta">564.654 Views • 1 week ago</p>
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
             </article>
 
             <article class="vid">
@@ -156,13 +159,15 @@
                     <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
                     <p class="vidLength">12:45</p>
                 </div>
-                <p class="title"><strong>This VIDEO is a TEST! | Channel Name</strong></p>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
             
-                <a href="#" class="channel">
-                    <img src="https://unsplash.it/36/36" alt="channel logo">
-                    Channel Name
-                </a>
-                <p class="meta">564.654 Views • 1 week ago</p>
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
             </article>
 
             <article class="vid">
@@ -170,13 +175,15 @@
                     <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
                     <p class="vidLength">12:45</p>
                 </div>
-                <p class="title"><strong>This VIDEO is a TEST! | Channel Name</strong></p>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
             
-                <a href="#" class="channel">
-                    <img src="https://unsplash.it/36/36" alt="channel logo">
-                    Channel Name
-                </a>
-                <p class="meta">564.654 Views • 1 week ago</p>
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
             </article>
 
             <article class="vid">
@@ -184,31 +191,259 @@
                     <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
                     <p class="vidLength">12:45</p>
                 </div>
-                <p class="title"><strong>This VIDEO is a TEST! | Channel Name</strong></p>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
             
-                <a href="#" class="channel">
-                    <img src="https://unsplash.it/36/36" alt="channel logo">
-                    Channel Name
-                </a>
-                <p class="meta">564.654 Views • 1 week ago</p>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
                 </div>
-                <p class="title"><strong>This VIDEO is a TEST! | Channel Name</strong></p>
-            
-                <a href="#" class="channel">
-                    <img src="https://unsplash.it/36/36" alt="channel logo">
-                    Channel Name
-                </a>
-                <p class="meta">564.654 Views • 1 week ago</p>
             </article>
         </section>
 
         <section class="mainVids">
+
+            <article class="vid">
+                <div class="thumbnail">
+                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
+                    <p class="vidLength">12:45</p>
+                </div>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
+            
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
+            </article>
+
+            <article class="vid">
+                <div class="thumbnail">
+                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
+                    <p class="vidLength">12:45</p>
+                </div>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
+            
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
+            </article>
+
+            <article class="vid">
+                <div class="thumbnail">
+                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
+                    <p class="vidLength">12:45</p>
+                </div>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
+            
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
+            </article>
+
+            <article class="vid">
+                <div class="thumbnail">
+                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
+                    <p class="vidLength">12:45</p>
+                </div>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
+            
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
+            </article>
+
+            <article class="vid">
+                <div class="thumbnail">
+                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
+                    <p class="vidLength">12:45</p>
+                </div>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
+            
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
+            </article>
+
+            <article class="vid">
+                <div class="thumbnail">
+                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
+                    <p class="vidLength">12:45</p>
+                </div>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
+            
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
+            </article>
+
+            <article class="vid">
+                <div class="thumbnail">
+                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
+                    <p class="vidLength">12:45</p>
+                </div>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
+            
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
+            </article>
+
+            <article class="vid">
+                <div class="thumbnail">
+                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
+                    <p class="vidLength">12:45</p>
+                </div>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
+            
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
+            </article>
+
+            <article class="vid">
+                <div class="thumbnail">
+                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
+                    <p class="vidLength">12:45</p>
+                </div>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
+            
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
+            </article>
+
+            <article class="vid">
+                <div class="thumbnail">
+                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
+                    <p class="vidLength">12:45</p>
+                </div>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
+            
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
+            </article>
+
+            <article class="vid">
+                <div class="thumbnail">
+                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
+                    <p class="vidLength">12:45</p>
+                </div>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
+            
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
+            </article>
+
+            <article class="vid">
+                <div class="thumbnail">
+                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
+                    <p class="vidLength">12:45</p>
+                </div>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
+            
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
+            </article>
+
+            <article class="vid">
+                <div class="thumbnail">
+                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
+                    <p class="vidLength">12:45</p>
+                </div>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
+            
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
+            </article>
+
+            <article class="vid">
+                <div class="thumbnail">
+                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
+                    <p class="vidLength">12:45</p>
+                </div>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
+            
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
+            </article>
+
+            <article class="vid">
+                <div class="thumbnail">
+                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
+                    <p class="vidLength">12:45</p>
+                </div>
+                <p class="title"><strong>3,5 MILLIONEN EURO mit Fake POKÈMON Karten VERLOREN! |</strong></p>
+            
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
+            </article>
 
         </section>
 
