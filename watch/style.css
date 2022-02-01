@@ -108,7 +108,7 @@ main
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 25px;
-    margin: 100px 25px 25px 25px;
+    margin: 89px 25px 25px 25px;
 }
 
 .column1
