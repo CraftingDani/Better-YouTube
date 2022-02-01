@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better YouTube</title>
+    <link rel="shortcut icon" href="https://youtube.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img src="../img/logo.png" alt="youtube logo" class="ytLogo">
+        </a>
+    
+        <form action="#" class="search">
+            <input type="search" placeholder="Search">
+            <button type="submit">
+                <img src="../img/magnify.png" alt="">
+            </button>
+        </form>
+    
+        <div class="menus">
+            <button class="themeSwitch"></button>
+            <img src="../img/cam.png" alt="create content">
+            <img src="../img/apps.png" alt="apps">
+            <img src="../img/bell.png" alt="notifications">
+            <img src="https://unsplash.it/36/36" alt="account icon" class="accIcon">
+        </div>
+    </header>
+    
+    <nav class="sidebar">
+    
+    </nav>
+
+    <main>
+        <div class="column1">
+            <section class="vidSection">
+                <video class="vidPlayer" controls>
+                    <source src="../img/video.mp4" type="video/mp4">
+                </video>
+                <h2>Title</h2>
+                <div class="vidActions">
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                    <div class="vidActionButtons">
+                        <button>
+                            <img src="../img/likeNormal.png" alt="like">
+                            <strong>9854</strong>
+                        </button>
+                        <button>
+                            <img src="../img/dislikeNormal.png" alt="dislike">
+                            <strong>526</strong>
+                        </button>
+                        <button>
+                            <img src="../img/share.png" alt="share">
+                            <strong>SHARE</strong>
+                        </button>
+                        <button>
+                            <img src="../img/save.png" alt="save">
+                            <strong>SAVE</strong>
+                        </button>
+                        <button>
+                            <img src="../img/report.png" alt="report">
+                        </button>
+                    </div>
+                </div>
+            
+                <div class="vidsChannel">
+                    <button>
+                        <img src="https://unsplash.it/36/36" alt="creator">
+                        <h3>
+                            Channel name
+                            <p class="subCount">654.816 Subscribers</p>
+                        </h3>
+                    </button>
+                    <button class="subscribe"><strong>SUBSCRIBE</strong></button>
+                </div>
+            
+                <div class="description">
+                    <p>Description goes here.</p>
+                    <button class="expandDescription">show more</button>
+                </div>
+            
+            </section>
+            
+            <section class="comments">
+                <h2>651 Comments</h2>
+                
+                <form class="writeComment">
+                    <input type="text" placeholder="Write a comment">
+                </form>
+                
+                <article class="comment">
+                    <h3>Channel name</h3>
+                    <p>Comment text</p>
+                </article>
+            </section>
+        </div>
+
+        
+        <section class="otherVids">
+            <template data-vidTemplate>
+                <article class="vid">
+                    <div class="thumbnail">
+                        <img src="https://unsplash.it/205/105" alt="thumbnail">
+                        <p class="vidLength">12:45</p>
+                    </div>
+                    <div>
+                        <h3 class="title">Thisnel asdas dssssssssssname</h3>
+                
+                        <div class="vidInfo">
+                            <a href="#" class="channel">
+                                <img src="https://unsplash.it/36/36" alt="channel logo">
+                                Channel Name
+                            </a>
+                            <p class="meta">564.654 Views • 1 week ago</p>
+                        </div>
+                    </div>
+                </article>
+            </template>
+        </section>
+    </main>
+</body>
+</html>
