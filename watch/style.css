@@ -310,9 +310,12 @@ h2
     padding: 10px;
     border-radius: 10px;
     box-shadow: 1px 2px 5px 2px #111;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
 }
 
-.comments input
+.comments textarea
 {
     background-color: transparent;
     border: none;
@@ -321,12 +324,25 @@ h2
     color: inherit;
     font-size: inherit;
     outline: none;
+    resize: vertical;
+    font-family: inherit;
 }
 
 .comment
 {
     padding: 10px;
     border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
-    margin: 25px 0 25px 0;
+    padding-top: 12px;
+}
+
+.comment h3
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.comment h3 img
+{
+    border-radius: 50%;
 }
