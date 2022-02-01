@@ -62,7 +62,7 @@ header
 {
     height: 32px;
     width: 80%;
-    background-color: #181818;
+    background-color: #18181899;
     border: 2px solid #333;
     border-right: none;
     color: white;
@@ -190,7 +190,7 @@ h2 button
     border-radius: 10px;
     position: relative;
 }
-
+   
 .vidLength
 {
     background-color: #111111BB;

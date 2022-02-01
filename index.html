@@ -7,8 +7,9 @@
     <title>Better YouTube</title>
     <link rel="shortcut icon" href="https://youtube.com/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
 </head>
+
 <body>
     <header>
         <a href="#">
@@ -23,6 +24,7 @@
         </form>
 
         <div class="menus">
+            <button class="themeSwitch"></button>
             <img src="img/cam.png" alt="create content">
             <img src="img/apps.png" alt="apps">
             <img src="img/bell.png" alt="notifications">
@@ -35,387 +37,34 @@
     </nav>
 
     <main>
-        <section class="mainVids">
+        <section class="mainVids main1">
             
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-            
-            
-
         </section>
 
-        <section class="specialVids">
+        <section class="specialVids special">
             <h2>Special Videos <button onclick="document.querySelector('.specialVids').style.display = 'none'"><strong>&times;</strong></button></h2>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
         </section>
 
-        <section class="mainVids">
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
-
-            <article class="vid">
-                <div class="thumbnail">
-                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
-                    <p class="vidLength">12:45</p>
-                </div>
-                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
-            
-                <div class="vidInfo">
-                    <a href="#" class="channel">
-                        <img src="https://unsplash.it/36/36" alt="channel logo">
-                        Channel Name
-                    </a>
-                    <p class="meta">564.654 Views • 1 week ago</p>
-                </div>
-            </article>
+        <section class="mainVids main2">
 
         </section>
+
+        <template data-vidTemplate>
+            <article class="vid" onclick="location.href = './watch'">
+                <div class="thumbnail">
+                    <img src="https://unsplash.it/205/105" alt="thumbnail" class="thumbnail">
+                    <p class="vidLength">12:45</p>
+                </div>
+                <p class="title"><strong>This Video is a TEST! How does it look? | Channel name</strong></p>
+                <div class="vidInfo">
+                    <a href="#" class="channel">
+                        <img src="https://unsplash.it/36/36" alt="channel logo">
+                        Channel Name
+                    </a>
+                    <p class="meta">564.654 Views • 1 week ago</p>
+                </div>
+            </article>
+        </template>
 
     </main>
 </body>
